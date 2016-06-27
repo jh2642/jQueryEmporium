@@ -1,17 +1,18 @@
 * {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Candal', sans-serif;
     font-size: 35px;
     text-align: center;
-    color: rgb(255, 237, 0);
+    color: rgb(4, 1, 15);
 
 }
 body {
-    background-image: url(../2371ff_homer-donut.jpg);
+    background-image: url(../lipstick.jpg);
+    text-align: center;
     margin: 0;
 }
 header {
     background-image: none;
-    background-color: rgb(222, 30, 16);
+    background-color: rgb(222, 16, 164);
     h1 {
         margin: 50px 0 25px;
         padding-top: 10px;
@@ -20,16 +21,15 @@ header {
 
 .plugin-selector-button {
     font-size: 50px;
-    font-family: 'Indie Flower', cursive;
     background-color: rgb(35, 113, 255);
-    border-color: rgb(222, 30, 16);
-    color: rgb(255, 237, 0);
+    border-color: rgb(222, 16, 164);
+    color: rgb(4, 1, 15);
     padding: 5px 20px 0;
     width: 350px;
 }
 .plugin-selector-button:hover {
-    background-color: rgb(255, 237, 0);
-    color: rgb(35, 113, 255);
+    background-color: rgb(4, 1, 15);
+    color: rgb(222, 16, 164);
     font-size: 55px;
     font-weight: bold;
     text-transform: uppercase;
@@ -40,20 +40,23 @@ header {
     height: 500px;
     margin: auto;
     margin-top: 20px;
-    border: 3px solid rgb(35, 113, 255);
+    border: 3px solid rgb(222, 16, 164);
     background-color: rgb(255, 255, 255);
 }
 
 .pluginDemonstration0 {
-    background-image: url(../mrburnz.jpg);
+    background-image: url(../rupaul.jpg);
     background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(222, 16, 164);
     height: 446px;
     width: 788px;
     h1 {
         position: relative;
-        left: -170px;
-        top: 326px;
-        color: rgb(222, 30, 16);
+        left: -15px;
+        top: 316px;
+        color: rgb(4, 1, 15);
     }
 }
 
@@ -68,7 +71,7 @@ header {
     overflow: hidden;
     text-align: center;
     padding: 8px 20px;
-    border: 3px solid rgb(35, 113, 255);
+    border: 3px solid rgb(222, 16, 164);
     background: RGB(131, 170, 243);
 }
 
@@ -92,22 +95,22 @@ menu {
     margin: 0 12px;
     padding: 0;
     button {
-        background-color: rgb(255, 237, 0);
+        background-color: rgb(4, 1, 15);
         color: rgb(35, 113, 255);
-        border: 3px solid rgb(222, 30, 16);
+        border: 3px solid rgb(222, 16, 164);
         padding-top: 10px;
     }
 }
 
 menu .active {
-    background-color: rgb(222, 30, 16);
-    color: rgb(255, 237, 0);
+    background-color: rgb(222, 16, 164);
+    color: rgb(4, 1, 15);
     border: 3px solid rgb(35, 113, 255);
 }
 
 .pluginDemonstration2 {
     background-color: rgb(35, 113, 255);
-    border: 3px solid rgb(255, 237, 0);
+    border: 3px solid rgb(4, 1, 15);
     h1 {
         font-size: 40px;
         margin: 10px 0 10px;
